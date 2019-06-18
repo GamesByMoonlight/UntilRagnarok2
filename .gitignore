@@ -1,9 +1,10 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-Assets/AssetStoreTools*
+UntilRagnarok2/Assets
+UntilRagnarok2/[Ll]ibrary/
+UntilRagnarok2/[Tt]emp/
+UntilRagnarok2/[Oo]bj/
+UntilRagnarok2/[Bb]uild/
+UntilRagnarok2/[Bb]uilds/
+UntilRagnarok2/Assets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/
