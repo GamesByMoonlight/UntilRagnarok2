@@ -120,6 +120,80 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &805359956
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_Name
+      value: IceGiant_Norse_redux_10
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 72076f3f6161dc6418fdca658cf92bf0, type: 2}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.053617027
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.20956434
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0000029504295
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180.00002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7beb0c4258400dd40b525e9a1f2c5974,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7beb0c4258400dd40b525e9a1f2c5974, type: 3}
 --- !u!1001 &1459562405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -131,6 +205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: IceGiant_Norse_04
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: df16cf8cb692d1a42b8d8a5408e4e21e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: df16cf8cb692d1a42b8d8a5408e4e21e,
         type: 3}
