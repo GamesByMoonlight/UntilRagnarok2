@@ -1,0 +1,326 @@
+fileFormatVersion: 2
+guid: 2e24e1d42af0bdb42ba25e90bbc5835a
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      74: -623603649343465320
+    second: Run
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: a4a5872fe4212c74c894c2fcac213626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Secondary
+    second: {fileID: 2100000, guid: 86df2bbd0805ce74f857b9d469c70070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teeth
+    second: {fileID: 2100000, guid: e7b03ce988d19e34c97dfd83715d2f18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Third
+    second: {fileID: 2100000, guid: a92b9fd29cabcb64693ea97fdcd96fd8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Scene
+      internalID: -623603649343465320
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.7
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: FenrirSpawn_04_Anim(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: FenrirSpawn_04_Anim(Clone)
+      position: {x: -0, y: 0.015838398, z: -0.01562792}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: Armature
+      position: {x: -0.000000066408944, y: -0.0001564616, z: -0.00004790156}
+      rotation: {x: 0.6490579, y: -0.0000015416628, z: -0.000001315335, w: 0.760739}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999356}
+    - name: Spine.1
+      parentName: Root
+      position: {x: -1.018634e-15, y: 0.00006916898, z: 3.8344107e-12}
+      rotation: {x: -0.00000037711752, y: 0.98638535, z: -0.16445059, w: -0.0000019571985}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000001}
+    - name: Spine2
+      parentName: Spine.1
+      position: {x: 3.2596288e-14, y: 0.00011907185, z: -2.8728343e-12}
+      rotation: {x: -0.46896315, y: 0.0000006150977, z: -0.00000026913716, w: 0.8832177}
+      scale: {x: 0.99999976, y: 0.999998, z: 1.0000015}
+    - name: Neck
+      parentName: Spine2
+      position: {x: 1.4260877e-14, y: 0.00011899095, z: -1.6928488e-11}
+      rotation: {x: 0.21058942, y: -0.0000002895102, z: 0.00000019033286, w: 0.97757465}
+      scale: {x: 1.0000007, y: 0.99999875, z: 1.0000025}
+    - name: JawUpper
+      parentName: Neck
+      position: {x: 1.6298143e-13, y: 0.000040540668, z: 1.2906093e-12}
+      rotation: {x: -0.125196, y: -0.00000029987973, z: -0.00000003543862, w: 0.992132}
+      scale: {x: 1.0000007, y: 1.0000017, z: 0.9999989}
+    - name: JawLower
+      parentName: Neck
+      position: {x: -0.000000022790994, y: 0.000046809, z: -0.000029711544}
+      rotation: {x: -0.00000012376573, y: -0.97364235, z: 0.2280803, w: -0.00000019051554}
+      scale: {x: 1.0000006, y: 1.0000026, z: 0.99999845}
+    - name: LegUpper.F.L
+      parentName: Spine.1
+      position: {x: 0.00003298495, y: 0.00011221211, z: -0.000022421598}
+      rotation: {x: -0.43794233, y: -0.45233583, z: 0.560034, w: -0.53848}
+      scale: {x: 1.0000002, y: 1.0000019, z: 0.9999986}
+    - name: LegLower.FL
+      parentName: LegUpper.F.L
+      position: {x: 7.301569e-12, y: 0.00008191816, z: -6.4010962e-12}
+      rotation: {x: 0.02258229, y: -0.16180906, z: 0.0032735313, w: 0.98655826}
+      scale: {x: 0.9999934, y: 1.0000044, z: 1.0000033}
+    - name: Foot.F.L
+      parentName: LegLower.FL
+      position: {x: -1.1473894e-11, y: 0.00008723811, z: -1.25169744e-11}
+      rotation: {x: 0.14933866, y: 0.9854703, z: -0.07167252, w: -0.03754096}
+      scale: {x: 1.0000005, y: 1.0000044, z: 0.9999989}
+    - name: FootLower.F.L
+      parentName: Foot.F.L
+      position: {x: 6.519258e-12, y: 0.00006742622, z: 1.3038514e-12}
+      rotation: {x: 0.2781099, y: -0.023721982, z: -0.071208574, w: 0.95761245}
+      scale: {x: 1.0000013, y: 0.99999934, z: 1.0000008}
+    - name: LegUpper.F.L.001.R
+      parentName: Spine.1
+      position: {x: -0.00003490577, y: 0.00011221211, z: -0.000022421593}
+      rotation: {x: 0.384467, y: -0.40078503, z: 0.59801096, w: 0.57787496}
+      scale: {x: 1.000001, y: 1.0000031, z: 0.99999774}
+    - name: LegLower.FL.001.R
+      parentName: LegUpper.F.L.001.R
+      position: {x: 2.0861623e-11, y: 0.000081918144, z: -2.2426245e-11}
+      rotation: {x: 0.02278076, y: 0.06459945, z: -0.0013065635, w: 0.9976504}
+      scale: {x: 0.99999535, y: 1.0000025, z: 1.0000029}
+    - name: Foot.F.L.001.R
+      parentName: LegLower.FL.001.R
+      position: {x: -1.25169744e-11, y: 0.000087238084, z: 2.0861624e-12}
+      rotation: {x: -0.14931872, y: 0.98583704, z: -0.07171493, w: 0.026197352}
+      scale: {x: 1.0000024, y: 1.0000012, z: 1.0000013}
+    - name: FootLower.F.L.001.R
+      parentName: Foot.F.L.001.R
+      position: {x: 8.34465e-12, y: 0.00006742622, z: 1.0430812e-11}
+      rotation: {x: 0.27768543, y: 0.018080074, z: 0.07284661, w: 0.95773554}
+      scale: {x: 1.0000018, y: 0.9999995, z: 1.000001}
+    - name: Tail.1
+      parentName: Root
+      position: {x: -5.8621393e-12, y: -0.000012423699, z: -0.0000014454419}
+      rotation: {x: -0.99754584, y: 0.00000021620504, z: 0.0000020273767, w: 0.0700166}
+      scale: {x: 0.9999998, y: 1.0000007, z: 1.0000012}
+    - name: Tail.2
+      parentName: Tail.1
+      position: {x: 1.5279509e-14, y: 0.00003297272, z: -6.0348263e-12}
+      rotation: {x: 0.2362843, y: 0.000000098084776, z: 0.000000033144204, w: 0.97168404}
+      scale: {x: 1.0000001, y: 0.9999995, z: 1.0000011}
+    - name: Tail.3
+      parentName: Tail.2
+      position: {x: 4.074536e-15, y: 0.000040070267, z: 1.5078012e-12}
+      rotation: {x: 0.14227764, y: -0.000000015196994, z: 0.000000017811862, w: 0.9898268}
+      scale: {x: 0.9999999, y: 1.0000012, z: 0.9999983}
+    - name: LegUpper.R.L
+      parentName: Root
+      position: {x: -0.000019387357, y: 0.0000018343892, z: 0.000000107828576}
+      rotation: {x: 0.9544308, y: -0.0584042, z: 0.2923363, w: 0.013794658}
+      scale: {x: 1.0000006, y: 1.0000044, z: 0.99999756}
+    - name: LegLower.R.L
+      parentName: LegUpper.R.L
+      position: {x: -0, y: 0.000048175276, z: 5.867332e-12}
+      rotation: {x: 0.2841549, y: -0.1464567, z: -0.03125724, w: 0.94701076}
+      scale: {x: 0.99999666, y: 1.0000037, z: 0.9999992}
+    - name: Foot.R.L
+      parentName: LegLower.R.L
+      position: {x: 2.607703e-13, y: 0.00005765456, z: -7.301569e-12}
+      rotation: {x: -0.7790786, y: -0.14524943, z: -0.038974807, w: 0.6086215}
+      scale: {x: 0.9999992, y: 1.0000061, z: 0.9999941}
+    - name: FootLower.R.L
+      parentName: Foot.R.L
+      position: {x: -1.0430812e-11, y: 0.0000663363, z: 1.0430812e-12}
+      rotation: {x: -0.10317678, y: 0.86579716, z: -0.48442185, w: -0.07131169}
+      scale: {x: 1.0000019, y: 1.0000083, z: 0.9999917}
+    - name: LegUpper.R.L.001.R
+      parentName: Root
+      position: {x: 0.000018896877, y: 0.0000018343906, z: 0.0000001076761}
+      rotation: {x: 0.938411, y: 0.05763117, z: -0.3402698, w: 0.016732367}
+      scale: {x: 0.99999994, y: 1.0000019, z: 1.0000004}
+    - name: LegLower.R.L.001.R
+      parentName: LegUpper.R.L.001.R
+      position: {x: 1.21258194e-11, y: 0.000048175258, z: -6.519258e-12}
+      rotation: {x: 0.28537124, y: 0.19419816, z: 0.016835898, w: 0.93838525}
+      scale: {x: 0.99999654, y: 1.0000051, z: 1.0000031}
+    - name: Foot.R.L.001.R
+      parentName: LegLower.R.L.001.R
+      position: {x: 6.731134e-12, y: 0.000057654568, z: 2.3469328e-12}
+      rotation: {x: -0.7790781, y: 0.14524889, z: 0.038975123, w: 0.60862225}
+      scale: {x: 1.0000002, y: 1.000004, z: 0.99999684}
+    - name: FootLower.R.L.001.R
+      parentName: Foot.R.L.001.R
+      position: {x: -1.2305099e-12, y: 0.00006633628, z: 2.1187587e-12}
+      rotation: {x: 0.10317721, y: 0.86579716, z: -0.48442197, w: 0.071310915}
+      scale: {x: 1.0000019, y: 1.0000027, z: 0.9999962}
+    - name: Foot.F.L.Target
+      parentName: Armature
+      position: {x: -0.000067892055, y: -0.00012373026, z: -0.00013022078}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: LegLower.FL.Pole
+      parentName: Armature
+      position: {x: -0.000089550704, y: -0.000113698035, z: -0.00007533575}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: Foot.F.R.Target
+      parentName: Armature
+      position: {x: 0.000081253595, y: -0.00012905363, z: -0.000103396305}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: LegLower.FR.Pole
+      parentName: Armature
+      position: {x: 0.00009296876, y: -0.00008458498, z: -0.000036532983}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: Foot.R.L.Target
+      parentName: Armature
+      position: {x: -0.000043913802, y: -0.00005706028, z: -0.00008902839}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: LegLower.R.L.Pole
+      parentName: Armature
+      position: {x: -0.00007019752, y: 0.000039005947, z: -0.000025944322}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: Foot.R.R.Target
+      parentName: Armature
+      position: {x: 0.000045524925, y: -0.0000108082195, z: -0.000056943292}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: LegLower.R.R.Pole
+      parentName: Armature
+      position: {x: 0.00004181641, y: 0.000057424335, z: -0.0000052246687}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: Wolf_Body
+      parentName: FenrirSpawn_04_Anim(Clone)
+      position: {x: -0, y: 0.018610368, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 101.76521, y: 101.76521, z: 101.76521}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.0069999998
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
