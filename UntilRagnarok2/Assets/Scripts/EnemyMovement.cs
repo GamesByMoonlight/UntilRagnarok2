@@ -17,6 +17,8 @@ public class EnemyMovement : MonoBehaviour
         
     }
 
+    public float turnSpeed =5f;
+
     // Update is called once per frame
     void Update()
     {
@@ -24,13 +26,15 @@ public class EnemyMovement : MonoBehaviour
         Vector3 dir = target.position - transform.position;
 
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
-        
-        if(Vector3.Distance(transform.position, target.position) <= 0.4f)
+        Quaternion lookRotation = Quaternion.LookRotation(dir);
+
+        Vector3 rotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
+        transform.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+
+        if (Vector3.Distance(transform.position, target.position) <= 0.4f)
         {
             GetNextWaypoint();
         }
-
-
 
     }
 
