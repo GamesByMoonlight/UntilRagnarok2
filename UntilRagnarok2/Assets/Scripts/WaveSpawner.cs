@@ -5,23 +5,14 @@ using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
-
     public Transform enemyPrefab;
-
-    public float timeBetweenWaves = 5f;
-    private float countdown = 3f;
-
-    private int waveIndex = 0;
-
     public Transform spawnPoint;
 
-    public Text waveCountdownText;
+    public float timeBetweenWaves = 5f;
+    private float countdown = 2f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Text waveCountdownText;
+    private int waveIndex = 0;
 
     // Update is called once per frame
     void Update()
@@ -30,8 +21,6 @@ public class WaveSpawner : MonoBehaviour
         if (countdown <= 0f)
         {
             StartCoroutine( SpawnWave());
-
-
             countdown = timeBetweenWaves;
 
             if(  waveIndex % 5 == 0)
@@ -44,10 +33,9 @@ public class WaveSpawner : MonoBehaviour
 
         countdown -= Time.deltaTime;
 
-        waveCountdownText.text = Mathf.Round( countdown).ToString();
+        countdown = Mathf.Clamp(countdown, 0f, Mathf.Infinity);
 
-
-
+        waveCountdownText.text = string.Format("{0:00}", countdown );
 
     }
 
@@ -72,7 +60,9 @@ public class WaveSpawner : MonoBehaviour
 
     void spawnEnemy()
     {
+
         Instantiate(enemyPrefab,spawnPoint.position, spawnPoint.rotation);
+
     }
 
 }
