@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
-    public Transform enemyPrefab;
+    public Transform [] enemyPrefab;
     public Transform spawnPoint;
 
     public float timeBetweenWaves = 5f;
@@ -13,6 +13,8 @@ public class WaveSpawner : MonoBehaviour
 
     public Text waveCountdownText;
     private int waveIndex = 0;
+
+    public float timeBetweenEnemies;
 
     // Update is called once per frame
     void Update()
@@ -48,7 +50,7 @@ public class WaveSpawner : MonoBehaviour
         for (int i = 0; i < waveIndex; i++)
         {
             spawnEnemy();
-            yield return new WaitForSeconds(0.3f);
+            yield return new WaitForSeconds(timeBetweenEnemies);
 
         }
 
@@ -60,8 +62,8 @@ public class WaveSpawner : MonoBehaviour
 
     void spawnEnemy()
     {
-
-        Instantiate(enemyPrefab,spawnPoint.position, spawnPoint.rotation);
+        int i = Random.Range(0, 3);
+        Instantiate(enemyPrefab[i],spawnPoint.position, spawnPoint.rotation);
 
     }
 
